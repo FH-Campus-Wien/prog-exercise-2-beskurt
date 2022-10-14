@@ -80,7 +80,7 @@ public class App {
             return;
         }
         for (int i = 0; i < hoehe/2; i++) {
-            for (int j = 1; j < hoehe - 1 - i; j++) {
+            for (int j = 1; j < hoehe - 2 - i; j++) {
                 System.out.print(" ");
             }
             for (int k = character-i; k <= character; k++) {
@@ -92,7 +92,7 @@ public class App {
             System.out.println();
         }
         for (int i = hoehe/2; i >= 0; i--) {
-            for (int j = 1; j < hoehe - 1 - i; j++) {
+            for (int j = 1; j < hoehe - 2 - i; j++) {
                 System.out.print(" ");
             }
             for (int k = character-i; k <= character; k++) {
